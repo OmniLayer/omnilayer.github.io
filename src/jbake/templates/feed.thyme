@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:th="http://www.thymeleaf.org">
   <channel>
-    <title>JBake</title>
+    <title>Omni</title>
     <link th:text='${config.site_host}'>link</link>
     <atom:link th:href='${config.site_host+"/feed.xml"}' href="link" rel="self" type="application/rss+xml" />
-    <description>JBake Bootstrap Template</description>
+    <description>OmniLayer GitHub Feed</description>
     <language>en-gb</language>
     <pubDate th:text='${#dates.format(published_date,"EEE, d MMM yyyy HH:mm:ss Z")}'>pubdate</pubDate>
     <lastBuildDate th:text='${#dates.format(published_date,"EEE, d MMM yyyy HH:mm:ss Z")}'>lastbuilddate</lastBuildDate>
