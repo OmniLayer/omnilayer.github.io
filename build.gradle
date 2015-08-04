@@ -1,0 +1,47 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'org.ajoberstar:gradle-git:0.7.1'
+        classpath 'me.champeau.gradle:jbake-gradle-plugin:0.2'
+        classpath 'org.jbake:jbake-core:2.4.0'
+        classpath 'org.asciidoctor:asciidoctorj:1.5.2'
+        classpath 'org.thymeleaf:thymeleaf:2.1.3.RELEASE'
+        classpath 'org.thymeleaf.extras:thymeleaf-extras-conditionalcomments:2.1.1.RELEASE'
+        classpath 'org.pegdown:pegdown:1.4.2'
+    }
+}
+
+apply plugin: 'me.champeau.jbake'
+apply plugin: 'github-pages'
+
+jbake {
+    clearCache = true
+}
+
+defaultTasks 'jbake'
+
+def siteDir = "$buildDir/jbake"
+
+githubPages {
+//  repoUri = 'git@github.com:msgilligan/msgilligan.github.io.git'
+  repoUri = 'https://github.com/msgilligan/msgilligan.github.io.git'
+  targetBranch = 'master'
+
+  pages {
+     from(file("$siteDir")) {
+     	into '.'
+     }
+  }
+  credentials {
+//    username = xxxx
+    password = ''
+  }
+}
+
+publishGhPages.dependsOn jbake
+
+task publish(dependsOn: publishGhPages, group: 'render',
+            description: "Publishes buildDir to Github Pages on 'master' branch")
