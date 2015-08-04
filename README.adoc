@@ -1,1 +1,6 @@
-# omnilayer.github.io
+= omnilayer.github.io
+
+Source repository for https://OmniLayer.github.io[OmniLayer GitHub Page].
+
+* The source code is in the https://github.com/OmniLayer/omnilayer.github.io/tree/source[source] branch.
+* The published site is in the https://github.com/OmniLayer/omnilayer.github.io/tree/master[master] branch.
