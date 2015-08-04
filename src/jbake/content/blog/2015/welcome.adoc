@@ -10,3 +10,6 @@ Welcome to the *OmniLayer* Github blog. We already have a http://blog.omni.found
 
 Since this blog can be authored in the http://asciidoctor.org[AsciiDoctor] format, it is well-suited for technical writing, so we may use it for some more technical communications.
 
+This will be presented to the team on August 4, 2015.
+
+

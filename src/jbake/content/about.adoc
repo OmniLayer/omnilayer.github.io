@@ -6,7 +6,7 @@ Sean Gilligan
 :jbake-tags: omni, jbake, asciidoc
 :idprefix:
 
-This is the *OmniLayer* Github Pages site. This site was created from http://asciidoctor.org[AsciiDoctor] source files by the http://jbake.org[JBake] static site generator.
+This is the *OmniLayer* Github Pages site. 
 
 For more information on OmniLayer:
 
@@ -17,6 +17,8 @@ For more information on OmniLayer:
 * Run a server using https://github.com/OmniLayer/omnicore[Omni Core].
 * Write a mobile wallet or build a JVM-based server with https://github.com/OmniLayer/OmniJ[OmniJ].
 * Visit the https://github.com/OmniLayer[OmniLayer GitHub Organization].
+
+This site was created from http://asciidoctor.org[AsciiDoctor] source files by the http://jbake.org[JBake] static site generator.
 
 The source for this site is in the `source` branch of https://github.com/OmniLayer/omnilayer.github.io[omnilayer/omnilayer.github.io].
 
