@@ -26,8 +26,7 @@ defaultTasks 'jbake'
 def siteDir = "$buildDir/jbake"
 
 githubPages {
-//  repoUri = 'git@github.com:msgilligan/msgilligan.github.io.git'
-  repoUri = 'https://github.com/msgilligan/msgilligan.github.io.git'
+  repoUri = 'https://github.com/OmniLayer/omnilayer.github.io.git'
   targetBranch = 'master'
 
   pages {
