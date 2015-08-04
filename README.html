@@ -414,6 +414,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h1>omnilayer.github.io</h1>
 </div>
 <div id="content">
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph">
 <p>Source repository for <a href="https://OmniLayer.github.io">OmniLayer GitHub Page</a>.</p>
 </div>
@@ -428,9 +430,63 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </div>
 </div>
+</div>
+<div class="sect1">
+<h2 id="_to_install_the_tools">To Install the tools</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The only prerequisite is an installation of a recent command-line Java. (No browser plugins needed.)</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">JDK 8</a> is recommended.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Java 6 or Java 7 should also work.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_to_build_locally">To build locally</h2>
+<div class="sectionbody">
+<div class="literalblock">
+<div class="content">
+<pre>./gradlew</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Open <code>./build/jbake/index.html</code> to view the rendered site.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_to_publish_to_github">To publish to Github</h2>
+<div class="sectionbody">
+<div class="literalblock">
+<div class="content">
+<pre>./gradlew publish</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Enter your Github username and password when prompted.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">NOTE</dt>
+<dd>
+<p>We will configure auto-publishing via Jenkins or Travis CI shortly.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+</div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2015-08-03 21:56:04 PDT
+Last updated 2015-08-03 22:10:32 PDT
 </div>
 </div>
 </body>

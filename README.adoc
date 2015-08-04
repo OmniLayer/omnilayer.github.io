@@ -4,3 +4,29 @@ Source repository for https://OmniLayer.github.io[OmniLayer GitHub Page].
 
 * The source code is in the https://github.com/OmniLayer/omnilayer.github.io/tree/source[source] branch.
 * The published site is in the https://github.com/OmniLayer/omnilayer.github.io/tree/master[master] branch.
+
+== To Install the tools
+
+The only prerequisite is an installation of a recent command-line Java. (No browser plugins needed.)
+
+. http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html[Java Development Kit 8] is recommended.
+
+Java 6 or Java 7 should also work.
+
+== To build locally
+
+    ./gradlew 
+
+Open `./build/jbake/index.html` to view the rendered site.
+
+== To publish to Github
+
+
+    ./gradlew publish
+
+Enter your Github username and password when prompted.
+
+NOTE::
+We will configure auto-publishing via Jenkins or Travis CI shortly.
+
+
