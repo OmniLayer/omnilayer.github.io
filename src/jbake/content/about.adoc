@@ -1,14 +1,23 @@
-title=About
-date=2013-09-24
-type=page
-status=published
-~~~~~~
+= About
+Sean Gilligan
+2015-08-03
+:jbake-type: page
+:jbake-status: published
+:jbake-tags: omni, jbake, asciidoc
+:idprefix:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel diam purus. Curabitur ut nisi lacus. 
-Nam id nisl quam. Donec a lorem sit amet libero pretium vulputate vel ut purus. Suspendisse leo arcu, 
-mattis et imperdiet luctus, pulvinar vitae mi. Quisque fermentum sollicitudin feugiat. Mauris nec leo 
-ligula. Vestibulum tristique odio ut risus ultricies a hendrerit quam iaculis. Duis tempor elit sit amet 
-ligula vehicula et iaculis sem placerat. Fusce dictum, metus at volutpat lacinia, elit massa auctor risus, 
-id auctor arcu enim eu augue. Donec ultrices turpis in mi imperdiet ac venenatis sapien sodales. In 
-consequat imperdiet nunc quis bibendum. Nulla semper, erat quis ornare tristique, lectus massa posuere 
-libero, ut vehicula lectus nunc ut lorem. Aliquam erat volutpat.
+This is the *OmniLayer* Github Pages site. This site was created from http://asciidoctor.org[AsciiDoctor] source files by the http://jbake.org[JBake] static site generator.
+
+For more information on OmniLayer:
+
+* Visit our http://www.omnilayer.org[Website].
+* Read or subscribe to our http://blog.omni.foundation[Blog].
+* Study the https://github.com/OmniLayer/spec[Omni Protocol Specification].
+* Create a wallet using https://www.omniwallet.org[Omniwallet].
+* Run a server using https://github.com/OmniLayer/omnicore[Omni Core].
+* Write a mobile wallet or build a JVM-based server with https://github.com/OmniLayer/OmniJ[OmniJ].
+* Visit the https://github.com/OmniLayer[OmniLayer GitHub Organization].
+
+The source for this site is in the `source` branch of https://github.com/OmniLayer/omnilayer.github.io[omnilayer/omnilayer.github.io].
+
+
