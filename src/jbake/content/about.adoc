@@ -20,6 +20,6 @@ For more information on OmniLayer:
 
 This site was created from http://asciidoctor.org[AsciiDoctor] source files by the http://jbake.org[JBake] static site generator.
 
-The source for this site is in the `source` branch of https://github.com/OmniLayer/omnilayer.github.io[omnilayer/omnilayer.github.io].
+The source for this site is in the `source` branch of https://github.com/OmniLayer/omnilayer.github.io/tree/source[omnilayer/omnilayer.github.io].
 
 
