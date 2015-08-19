@@ -32,7 +32,7 @@
                 <li><a href="exchanging.html">Exchanging Omni and Omni Assets</a></li>
                 <li class="divider"></li>
                 <li class="dropdown-header">Community</li>
-                <li><a href="http://blog.omni.foundation" target="_blank">Omni Foundation Blog</a></li>
+                <li><a href="http://blog.omni.foundation" target="_blank"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>&nbsp;&nbsp; Omni Foundation Blog</a></li>
                 <li><a href="http://www.omnilayer.org/" target="_blank">Social Media</a></li>
                 <li><a href="contributing.html">Become a Contributor</a></li>
                 <li><a href="http://www.omnilayer.org/" target="_blank">Omni Team</a></li>
@@ -48,16 +48,16 @@
               <ul class="dropdown-menu">
                 <li class="divider"></li>
                 <li class="dropdown-header">Omni Core</li>
-                <li><a href="https://github.com/OmniLayer/omnicore" target="_blank">Github Project / README</a></li>
-                <li><a href="https://github.com/OmniLayer/omnicore/blob/omnicore-0.0.10/src/omnicore/doc/rpc-api.md" target="_blank">RPC API</a></li>
+                <li><a href="https://github.com/OmniLayer/omnicore" target="_blank"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>&nbsp;&nbsp; Github Project / README</a></li>
+                <li><a href="https://github.com/OmniLayer/omnicore/blob/omnicore-0.0.10/src/omnicore/doc/rpc-api.md" target="_blank"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>&nbsp;&nbsp; RPC API</a></li>
                  <li class="divider"></li>
                 <li class="dropdown-header">Omniwallet</li>
-                <li><a href="https://github.com/OmniLayer/omniwallet" target="_blank">Github Project / README</a></li>
-                <li><a href="https://github.com/OmniLayer/omniwallet#read-api-http-get" target="_blank">REST API</a></li>
+                <li><a href="https://github.com/OmniLayer/omniwallet" target="_blank"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>&nbsp;&nbsp; Github Project / README</a></li>
+                <li><a href="https://github.com/OmniLayer/omniwallet#read-api-http-get" target="_blank"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>&nbsp;&nbsp; REST API</a></li>
                 <li class="dropdown-header">OmniJ</li>
-                <li><a href="https://github.com/OmniLayer/OmniJ" target="_blank">Github Project / README</a></li>
-                <li><a href="https://ci.omni.foundation/job/OmniJ/ws/build/adoc/omnij-devguide.html" target="_blank">Developer's Guide</a></li>
-                <li><a href="https://ci.omni.foundation/job/OmniJ/javadoc/" target="_blank">JavaDoc API</a></li>
+                <li><a href="https://github.com/OmniLayer/OmniJ" target="_blank"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>&nbsp;&nbsp; Github Project / README</a></li>
+                <li><a href="https://ci.omni.foundation/job/OmniJ/ws/build/adoc/omnij-devguide.html" target="_blank"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>&nbsp;&nbsp; Developer's Guide</a></li>
+                <li><a href="https://ci.omni.foundation/job/OmniJ/javadoc/" target="_blank"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>&nbsp;&nbsp; JavaDoc API</a></li>
              </ul>
             </li>
             <li><a th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'blog.html'">News</a></li>
@@ -65,7 +65,6 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
-
 	</div>
   	</body>
 </html>
