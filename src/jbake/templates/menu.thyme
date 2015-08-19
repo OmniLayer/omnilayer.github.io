@@ -18,20 +18,46 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
+            <li><a th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'home.html'">Home</a></li>
             <li><a th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'index.html'">News</a></li>
-            <li><a th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'about.html'">About</a></li>
-            <li><a th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+${config.feed_file}">Subscribe</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Omni <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
+                <li><a href="omni-overview.html">Omni Overview &amp; History</a></li>
+                <li><a href="omni-faq.html">FAQ</a></li>
                 <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
+                <li class="dropdown-header">Getting Started</li>
+                <li><a href="http://www.omnilayer.org/">Get a Wallet</a></li>
+                <li><a href="exchanging.html">Exchanging Omni and Omni Assets</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Community</li>
+                <li><a href="http://blog.omni.foundation">Omni Foundation Blog</a></li>
+                <li><a href="http://www.omnilayer.org/">Social Media</a></li>
+                <li><a href="contributing.html">Become a Contributor</a></li>
+                <li><a href="http://www.omnilayer.org/">Omni Team</a></li>
+             </ul>
+            </li>
+            <li><a th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'omni-white-paper.html'">Whitepaper</a></li>
+            <li><a th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'omni-protocol-specification.html'">Specification</a></li>
+            <!--
+            <li><a th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+${config.feed_file}">Subscribe</a></li>
+            -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentation <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="divider"></li>
+                <li class="dropdown-header">Omni Core</li>
+                <li><a href="https://github.com/OmniLayer/omnicore">Github Project / README</a></li>
+                <li><a href="https://github.com/OmniLayer/omnicore/blob/omnicore-0.0.10/src/omnicore/doc/rpc-api.md">RPC API</a></li>
+                 <li class="divider"></li>
+                <li class="dropdown-header">Omniwallet</li>
+                <li><a href="https://github.com/OmniLayer/omniwallet">Github Project / README</a></li>
+                <li><a href="https://github.com/OmniLayer/omniwallet#read-api-http-get">REST API</a></li>
+                <li class="dropdown-header">OmniJ</li>
+                <li><a href="https://github.com/OmniLayer/OmniJ">Github Project / README</a></li>
+                <li><a href="https://ci.omni.foundation/job/OmniJ/ws/build/adoc/omnij-devguide.html">Developer's Guide</a></li>
+                <li><a href="https://ci.omni.foundation/job/OmniJ/javadoc/">JavaDoc API</a></li>
+             </ul>
             </li>
           </ul>
         </div><!--/.nav-collapse -->
