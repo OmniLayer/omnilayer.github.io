@@ -14,7 +14,7 @@ For more information on OmniLayer:
 
 * Visit our http://www.omnilayer.org[Website].
 * Read or subscribe to our http://blog.omni.foundation[Blog].
-* Study the https://github.com/OmniLayer/spec[Omni Protocol Specification].
+* Study the link:omni-protocol-specification.html[Omni Protocol Specification].
 * Create a wallet using https://www.omniwallet.org[Omniwallet].
 * Run a server using https://github.com/OmniLayer/omnicore[Omni Core].
 * Write a mobile wallet or build a JVM-based server with https://github.com/OmniLayer/OmniJ[OmniJ].
