@@ -1,4 +1,4 @@
-= Home
+= OmniLayer Github
 Sean Gilligan
 2015-08-18
 :jbake-type: page
