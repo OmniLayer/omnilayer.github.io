@@ -5,7 +5,7 @@ Source repository for https://OmniLayer.github.io[OmniLayer GitHub Page].
 * The source code is in the https://github.com/OmniLayer/omnilayer.github.io/tree/source[source] branch.
 * The published site is in the https://github.com/OmniLayer/omnilayer.github.io/tree/master[master] branch.
 
-== To Install the tools
+== Install Site Building Tools
 
 The only prerequisite is an installation of a recent command-line Java. (No browser plugins needed.)
 
@@ -13,13 +13,43 @@ The only prerequisite is an installation of a recent command-line Java. (No brow
 
 Java 6 or Java 7 should also work.
 
-== To build locally
+Basic content editing can be done with a text-editor or on Github. The <<Content>> section has details and a list of live preview tools.
+
+== Modify the Site Source
+
+The site source is rendered to static HTML using the http://jbake.org/[JBake] static site generator tool. The site is split into three directories: `content`, `templates`, and `assets` and an overview of each is provided below. For detailed information please see the http://jbake.org/docs/2.4.0/[JBake Documentation].
+
+=== Content
+
+Content is in the `content` directory. Most content is in http://asciidoctor.org[AsciiDoctor] markdown (`.adoc`) files. AsciiDoc format provides easy editing, versioning, and maintenance with powerful formatting and structuring tools.
+
+See the http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[AsciiDoc Quick Reference] to get started. Note that Github automatically renders AsciiDoc files when browsing repositories and allows AsciiDoc wiki pages. AsciiDoc is better suited for extensive technical documentation -- *which the Omni Team aims to provide* -- then standard or Github-flavored Markdown.
+
+For example the entire O'Reilly https://www.bitcoinbook.info[Mastering Bitcoin] book (by https://github.com/aantonop[Andreas Antonopoulos]) is written in AsciiDoc format (see https://github.com/aantonop/bitcoinbook[repo]).
+
+AsciiDoc content can be live previewed using a variety of tools including:
+
+* https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia?hl=en[Chrome Plugin]
+* https://addons.mozilla.org/en-us/firefox/addon/asciidoctorjs-live-preview/[Firefox Plugin]
+* https://plugins.jetbrains.com/plugin/7391[IntelliJ IDEA Plugin]
+
+JBake also supports content in Github markdown format and HTML. 
+
+=== Templates
+
+The templates are used to wrap the content with headers, footer, and menus and to add stylesheets, etc. The templates are in the `template` directory and are in http://www.thymeleaf.org[Thymeleaf] format which is HTML with additional attributes to allow variable things like variables and include files. Thymeleaf templates are *natural templates* which are valid HTML and do not can be rendered directly by browsers as static prototypes. Dummy text will be replaced at build-time with text from the files in the `content` directory.
+
+=== Assets
+
+The `assets` directory contains static images, fonts, Javascript, and CSS. These files are referenced from the templates and used to style the content and implement things like menu behavior.
+
+== Build Locall
 
     ./gradlew 
 
 Open `./build/jbake/index.html` to view the rendered site.
 
-== To publish to Github
+== Publish to Github
 
 
     ./gradlew publish

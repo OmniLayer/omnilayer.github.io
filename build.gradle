@@ -19,6 +19,7 @@ apply plugin: 'github-pages'
 
 jbake {
     clearCache = true
+    input = file("$projectDir")
 }
 
 defaultTasks 'jbake'
