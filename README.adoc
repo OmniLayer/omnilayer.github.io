@@ -43,11 +43,11 @@ The templates are used to wrap the content with headers, footer, and menus and t
 
 The `assets` directory contains static images, fonts, Javascript, and CSS. These files are referenced from the templates and used to style the content and implement things like menu behavior.
 
-== Build Locall
+== Build Locally
 
     ./gradlew 
 
-Open `./build/jbake/index.html` to view the rendered site.
+Open `./build/site/index.html` to view the rendered site.
 
 == Publish to Github
 
