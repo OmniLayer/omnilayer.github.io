@@ -32,6 +32,7 @@ AsciiDoc content can be live previewed using a variety of tools including:
 * https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia?hl=en[Chrome Plugin]
 * https://addons.mozilla.org/en-us/firefox/addon/asciidoctorjs-live-preview/[Firefox Plugin]
 * https://plugins.jetbrains.com/plugin/7391[IntelliJ IDEA Plugin]
+* See http://asciidoctor.org/docs/editing-asciidoc-with-live-preview/[Editing AsciiDoc with Live Preview] for additional options
 
 JBake also supports content in Github markdown format and HTML. 
 
