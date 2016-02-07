@@ -13,7 +13,7 @@ h6 {
   font-weight: 300;
 }
 a {
-  color: #52b6ec;
+  color: #18347E;
   -webkit-transition: 300ms;
   -moz-transition: 300ms;
   -o-transition: 300ms;
@@ -24,7 +24,7 @@ a {
   border: 0;
 }
 .btn.btn-primary {
-  background-color: #52b6ec;
+  background-color: #18347E;
 }
 .btn.btn-primary:hover,
 .btn.btn-primary.active {
@@ -48,14 +48,15 @@ a:focus {
   z-index: 99999;
 }
 #main-slider {
-  background-image: url(../images/slider-bg.jpg);
-  background-attachment: fixed;
+  background-image: url(../images/OmniCityScape.jpg);
+  background-attachment: scroll;
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   padding: 200px 0;
   color: #fff;
 }
+
 #main-slider .item {
   -moz-transition: opacity ease-in-out 500ms;
   -o-transition: opacity ease-in-out 500ms;
@@ -133,7 +134,7 @@ a:focus {
   color: #999;
 }
 #contact .box a:hover {
-  color: #52b6ec;
+  color: #18347E;
 }
 #contact .box input[type="text"],
 #contact .box input[type="email"],
@@ -348,8 +349,8 @@ a:focus {
 }
 #get-started .plan.featured .plan-price {
   color: #fff;
-  background-color: #52b6ec;
-  border-bottom-color: #52b6ec;
+  background-color: #18347E;
+  border-bottom-color: #18347E;
   margin: 0;
 }
 #source .box {
@@ -480,17 +481,16 @@ a:focus {
   border-radius: 0 0 0 5px;
 }
 .navbar-default .navbar-brand {
-  margin-right: 20px;
-  margin-left: 20px;
-  width: 180px;
-  height: 78px;
-  background: url(../images/logo.png) no-repeat 0 50%;
+  margin: 15px 0px 15px 20px;
+  width: 150px;
+  height: 48px;
+  background: url(../images/logo.png) no-repeat 0 50% / contain;
 }
 .navbar-default .navbar-nav > li {
   margin-left: 1px;
 }
 .navbar-default .navbar-nav > li > a {
-  padding: 30px 25px;
+  padding: 30px 20px;
   font-size: 16px;
   line-height: 18px;
   color: #999;
@@ -508,7 +508,7 @@ a:focus {
 .navbar-default .navbar-nav > li.active:hover > a:focus,
 .navbar-default .navbar-nav > li:hover > a:focus,
 .navbar-default .navbar-nav > li:focus > a:focus {
-  background-color: #52b6ec;
+  background-color: #18347E;
   color: #fff;
 }
 .icon-lg {
@@ -569,7 +569,7 @@ a:focus {
   color: #999;
 }
 #footer a:hover {
-  color: #52b6ec;
+  color: #18347E;
 }
 ul.social {
   list-style: none;
