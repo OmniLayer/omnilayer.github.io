@@ -49,6 +49,7 @@ a:focus {
 }
 #main-slider {
   background-image: url(../images/OmniCityScape.jpg);
+  background-color:  #17152D;
   background-attachment: scroll;
   background-size: cover;
   background-position: 50% 50%;
