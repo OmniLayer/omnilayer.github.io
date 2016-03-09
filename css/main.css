@@ -310,48 +310,52 @@ a:focus {
   -o-transition: none;
   transition: none;
 }
-#get-started .box {
+section.plans .box {
   background-color: #f9f9f9;
 }
-#get-started .plan {
+section.plans .plan {
   background: #fff;
   list-style: none;
   margin: 0 0 20px;
   text-align: center;
   padding: 0;
-  border-bottom: 1px solid #e1e1e1;
 }
-#get-started .plan li {
+section.plans .plan li {
   padding: 10px 0;
   margin: 0 15px;
-  border-bottom: 1px dashed #eee;
 }
-#get-started .plan li.plan-name {
+section.plans .plan li.plan-name {
   padding: 15px 0;
   font-size: 18px;
   font-weight: 700;
 }
-#get-started .plan li.plan-price {
+section.plans .plan li.plan-price {
   color: #666;
   padding: 15px 0;
   font-size: 48px;
 }
-#get-started .plan li.plan-action {
+section.plans .plan li.plan-action {
   margin-top: 20px;
   margin-bottom: 20px;
-  border-bottom: 0;
 }
-#get-started .plan.featured {
+section.plans .plan li.plan-small {
+  font-size: 14px;
+  font-weight: 700;
+}
+section.plans .plan li.plan-fine {
+  font-size: 8px;
+  font-weight: 700;
+}
+section.plans .plan.featured {
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
   -ms-transform: scale(1.05);
   -o-transform: scale(1.05);
   transform: scale(1.05);
 }
-#get-started .plan.featured .plan-price {
+section.plans .plan.featured .plan-price {
   color: #fff;
   background-color: #18347E;
-  border-bottom-color: #18347E;
   margin: 0;
 }
 #source .box {
