@@ -3,7 +3,7 @@
 <html data-wf-page="59eb25c5e8bbc50001a454b8" data-wf-site="59eb25c5e8bbc50001a454b7">
 <head>
   <meta charset="utf-8">
-  <title>Omni</title>
+  <title>Omni Layer</title>
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/components.css" rel="stylesheet" type="text/css">
@@ -22,10 +22,10 @@
     <div class="div-block-2">
       <div class="logodiv"><a href="#" class="brand w-nav-brand"><img src="images/OmniLogo.svg"></a></div>
       <div class="menudiv">
-        <nav role="navigation" class="nav-menu w-nav-menu"><a href="#About" class="nav-link w-nav-link">About</a><a href="#GetStarted" class="nav-link w-nav-link">Get started</a><a href="#Github" class="nav-link w-nav-link">Github projects</a><a href="#Community" class="nav-link w-nav-link">Community</a><a href="#Partners" class="nav-link w-nav-link">Partners</a></nav>
+        <nav role="navigation" class="nav-menu w-nav-menu"><a href="#About" class="nav-link w-nav-link">About</a><a href="#GetStarted" class="nav-link w-nav-link">Get started</a><a href="#GitHub" class="nav-link w-nav-link">GitHub projects</a><a href="#Community" class="nav-link w-nav-link">Community</a><a href="#Partners" class="nav-link w-nav-link">Partners</a></nav>
       </div>
       <div class="pricediv w-clearfix">
-      <div class="priceticker w-hidden-medium w-hidden-small w-hidden-tiny"><a class="button w-button"><span class="text-span"><?php include ('priceticker.php'); ?></span><!-- <span class="text-span">Omni/USD $5.69</span> --></a></div>
+      <div class="priceticker w-hidden-medium w-hidden-small w-hidden-tiny"><a class="button w-button"><span class="text-span"><?php include ('priceticker.php'); ?></span></a></div>
 </div>
       <div class="menu-button w-nav-button">
         <div class="w-icon-nav-menu"></div>
@@ -147,7 +147,7 @@
           <div class="iconrow w-row">
             <div class="column-15 w-col w-col-3 w-col-small-3 w-col-tiny-3"><img src="images/AssetValue.svg"></div>
             <div class="w-col w-col-9 w-col-small-9 w-col-tiny-9">
-              <p class="icontext">Over 700M USD in asset market cap on the layer as of Feb &#x27;17</p>
+              <p class="icontext">Over 700M USD in asset market cap on the layer as of 2017</p>
             </div>
           </div>
         </div>
@@ -158,7 +158,7 @@
     <div class="container-video w-container">
       <div>
         <h1 class="heading-3">Get started</h1>
-        <p class="paragraph-2">Start with a web application or a software download</p>
+        <p class="paragraph-2">Start with a web application or a software download.</p>
       </div>
       <div class="row-8 w-row">
         <div class="w-col w-col-4">
@@ -166,10 +166,10 @@
             <div class="getstartedlogo"><img src="images/Omniwallet.png"></div>
             <div class="cardtext">
               <ul class="unordered-list">
-                <li class="list-item-card">Free, hosted Web Wallet</li>
-                <li class="list-item-card">You control your private key</li>
-                <li class="list-item-card">Send &amp; receive Bitcoin &amp; Omni assets</li>
-                <li class="list-item-card">Create assets, launch crowdsales, &amp; trade on the distributed exchange.</li>
+                <li class="list-item-card">Free, hosted web wallet</li>
+                <li class="list-item-card">You control your private keys</li>
+                <li class="list-item-card">Send and receive Bitcoin or Omni assets</li>
+                <li class="list-item-card">Create assets, launch crowdsales, and trade on the distributed exchange</li>
               </ul>
             </div>
             <div class="cardlink"><a href="https://www.omniwallet.org/" data-w-id="6f3f1938-8fb5-38b3-d566-272b1b6149ec" class="link">Sign up</a></div>
@@ -180,10 +180,10 @@
             <div class="getstartedlogo"><img src="images/Explorer.png" class="image-11"></div>
             <div class="cardtext">
               <ul class="unordered-list">
-                <li class="list-item-card">Omni Blockchain Explorer</li>
-                <li class="list-item-card">View Omni transactions on the Bitcoin Network</li>
+                <li class="list-item-card">Omni blockchain explorer</li>
+                <li class="list-item-card">View Omni transactions on the Bitcoin network</li>
                 <li class="list-item-card">Lookup Omni asset (smart property) information</li>
-                <li class="list-item-card">View asset trading on the Distributed EXchange (DEX)</li>
+                <li class="list-item-card">View asset trading on the distributed exchange (DEx)</li>
               </ul>
             </div>
             <div class="cardlink"><a href="https://omniexplorer.info/" data-w-id="e23c5924-c999-972d-7b46-98b21ec46706" class="link">Visit site</a></div>
@@ -194,22 +194,22 @@
             <div class="getstartedlogo"><img src="images/OmniCore.png"></div>
             <div class="cardtext">
               <ul class="unordered-list">
-                <li class="list-item-card">Fully-validating Desktop Wallet</li>
-                <li class="list-item-card">A superset of Bitcoin-Qt</li>
-                <li class="list-item-card">Mac, Windows, and Linux</li>
+                <li class="list-item-card">Fully-validating desktop wllet</li>
+                <li class="list-item-card">A superset of Bitcoin Core</li>
+                <li class="list-item-card">Mac OS X, Windows, and Linux</li>
                 <li class="list-item-card">Native, cross-platform user interface</li>
-                <li class="list-item-card">Peer-to-peer Distributed Exchange Trading</li>
+                <li class="list-item-card">Peer-to-peer distributed exchange trading</li>
               </ul>
             </div>
-            <div class="cardlink"><a href="download.html" data-w-id="3af8c0b2-9ee7-90fc-fae2-6ccf7fe21ddb" class="link">Download</a></div>
+            <div class="cardlink"><a href="download.php" data-w-id="3af8c0b2-9ee7-90fc-fae2-6ccf7fe21ddb" class="link">Download</a></div>
           </div>
         </div>
       </div>
     </div>
     <div class="container-video w-container">
       <div>
-        <h1 class="heading-3">Video&#x27;s</h1>
-        <p class="paragraph-2">Start with a web application or a software download</p>
+        <h1 class="heading-3">Videos</h1>
+        <p class="paragraph-2">Check out a video about Omni or related projects.</p>
       </div>
       <div>
         <div data-animation="slide" data-duration="500" data-infinite="1" class="slider-2 w-slider">
@@ -232,10 +232,10 @@
       </div>
     </div>
   </div>
-  <div id="Github" class="section-5">
+  <div id="GitHub" class="section-5">
     <div class="container-6 w-container">
       <div class="projectstitle">
-        <h1 class="heading-5">Github projects</h1>
+        <h1 class="heading-5">GitHub projects</h1>
         <div class="projectsgithub"><img src="images/github-iconOutline.svg" class="image-10"></div>
       </div>
       <div class="w-row">
@@ -244,7 +244,7 @@
             <div class="projectslogo"><img src="images/OmniSpec.svg"></div>
             <div class="cardtext">
               <h3 class="heading-4">Omni Protocol Specification</h3>
-              <p class="projectsparagraph">The Specification for the Omni Layer Protocol.</p>
+              <p class="projectsparagraph">The Specification for the Omni Layer protocol.</p>
             </div>
           </a>
         </div>
@@ -262,7 +262,7 @@
             <div class="projectslogo"><img src="images/OmniwalletProjects.png"></div>
             <div class="cardtext">
               <h3 class="heading-4">Omniwallet</h3>
-              <p class="projectsparagraph">Hosted wallet server (Python) with AngularJS front-end.</p>
+              <p class="projectsparagraph">Hosted wallet server in Python with AngularJS front-end.</p>
             </div>
           </a>
         </div>
@@ -273,7 +273,7 @@
             <div class="projectslogo"><img src="images/SMgithub-icon.svg"></div>
             <div class="cardtext">
               <h3 class="heading-4">OmniJ</h3>
-              <p class="projectsparagraph">Java/JVM Omni Client<br><br><span class="text-span-2">.</span></p>
+              <p class="projectsparagraph">A Java/JVM Omni client.</span></p>
             </div>
           </a>
         </div>
@@ -291,7 +291,7 @@
             <div class="projectslogo"><img src="images/SMgithub-icon.svg"></div>
             <div class="cardtext">
               <h3 class="heading-4">See more…</h3>
-              <p class="projectsparagraph">Official Omni Foundation Github Projects</p>
+              <p class="projectsparagraph">Official Omni Foundation GitHub projects.</p>
             </div>
           </a>
         </div>
@@ -327,7 +327,7 @@
       </div>
       <div class="teamtitle">
         <h1 class="teamh1">Meet the team</h1>
-        <p class="paragraph-3">In tristique malesuada turpis non tincidunt. Aliquam gravida massa tellus</p>
+        <p class="paragraph-3">Meet the people who are working on improving the Omni Layer.</p>
       </div>
       <div class="row-4 w-row">
         <div class="teamtoprow w-col w-col-3 w-col-small-3"><img src="images/Achamely.png">
@@ -403,7 +403,7 @@
         </div>
         <div class="w-col w-col-6">
           <div class="copyrightright">
-            <div class="text-block-2">Terms of use    |    Privacy Policy</div>
+            <div class="text-block-2"><!--Terms of use    |    Privacy Policy--></div>
           </div>
         </div>
       </div>
