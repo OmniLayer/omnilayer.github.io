@@ -1,5 +1,3 @@
-= OmniLayer Quick & Dirty Github Site
+= Omni Layer GitHub Site
 
-Started from https://shapebootstrap.net/item/1524966-xeon-best-onepage-site-template[Fee Xeon Theme Template].
-
-
+http://www.omnilayer.org/
