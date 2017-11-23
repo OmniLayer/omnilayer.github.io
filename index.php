@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<!--  Last Published: Tue Nov 14 2017 19:16:27 GMT+0000 (UTC)  -->
+<html data-wf-page="59eb25c5e8bbc50001a454b8" data-wf-site="59eb25c5e8bbc50001a454b7">
+<head>
+  <meta charset="utf-8">
+  <title>Omni</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/components.css" rel="stylesheet" type="text/css">
+  <link href="css/omni-ac67cd.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic"]  }});</script>
+  <script src="https://use.typekit.net/snb5fby.js" type="text/javascript"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/Artboard-1.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/Artboard-1_1.png" rel="apple-touch-icon">
+</head>
+<body class="body">
+  <div data-collapse="medium" data-animation="default" data-duration="400" data-ix="new-interaction" data-w-id="8f8d0655-7d22-04c5-725b-8570417fec93" class="navbar w-nav">
+    <div class="div-block-2">
+      <div class="logodiv"><a href="#" class="brand w-nav-brand"><img src="images/OmniLogo.svg"></a></div>
+      <div class="menudiv">
+        <nav role="navigation" class="nav-menu w-nav-menu"><a href="#About" class="nav-link w-nav-link">About</a><a href="#GetStarted" class="nav-link w-nav-link">Get started</a><a href="#Github" class="nav-link w-nav-link">Github projects</a><a href="#Community" class="nav-link w-nav-link">Community</a><a href="#Partners" class="nav-link w-nav-link">Partners</a></nav>
+      </div>
+      <div class="pricediv w-clearfix">
+      <div class="priceticker w-hidden-medium w-hidden-small w-hidden-tiny"><a class="button w-button"><span class="text-span"><?php include ('priceticker.php'); ?></span><!-- <span class="text-span">Omni/USD $5.69</span> --></a></div>
+</div>
+      <div class="menu-button w-nav-button">
+        <div class="w-icon-nav-menu"></div>
+      </div>
+    </div>
+  </div>
+  <div class="section-7"></div>
+  <div data-ix="display-nav" class="herosection">
+    <div class="row w-row">
+      <div class="w-col w-col-3"></div>
+      <div class="column w-col w-col-6">
+        <h1 class="heading">Omni Layer</h1>
+        <p class="heroparagraph">Open-source, fully-decentralized asset platform on the Bitcoin Blockchain</p>
+      </div>
+      <div class="w-col w-col-3"></div>
+    </div>
+    <div class="heroforegroundnodes"><img src="images/HeroBlockchain-Front.svg" data-w-id="2fb9e18c-0aad-b321-92a9-ab4a5cf1ed92" class="image-2"></div>
+    <div class="herobackgroundnodes"><img src="images/HeroBlockchain-Back.svg" data-w-id="791b352c-e836-9903-477d-02392fc9d96d" class="image"></div>
+  </div>
+  <div class="sectionlogos">
+    <div class="container-3 w-container w-hidden-tiny">
+      <div class="row-2 w-row">
+        <div class="featuredlogo w-col w-col-2"><img src="images/themerkle.png" class="image-13"></div>
+        <div class="featuredlogo w-col w-col-2"><img src="images/WSJ.svg" class="image-6"></div>
+        <div class="featuredlogo w-col w-col-2"><img src="images/Yahoo.png" class="image-7"></div>
+        <div class="featuredlogo w-col w-col-2"><img src="images/forbes.svg" class="image-8"></div>
+        <div class="featuredlogo w-col w-col-2"><img src="images/btcmag.png" class="image-9"></div>
+        <div class="w-col w-col-2"><img src="images/coindesk.png" class="image-5"></div>
+      </div>
+    </div>
+  </div>
+  <div id="About" class="section-2">
+    <div class="container-2 w-container">
+      <div>
+        <h1 class="heading-2">Built on top of the Bitcoin blockchain</h1>
+        <p class="paragraph">Omni is a platform for creating and trading custom digital assets and currencies. It is a software layer built on top of the most popular, most audited, most secure blockchain -- Bitcoin. Omni transactions are Bitcoin transactions that enable next-generation features on the Bitcoin Blockchain. Our reference implementation, Omni Core is an enhanced Bitcoin Core that provides all the features of Bitcoin as well as advanced Omni Layer features.</p>
+      </div>
+      <div class="div-block-4"><img src="images/Blockchain.svg" class="image-3"></div>
+    </div>
+  </div>
+  <div>
+    <div class="container-4 w-container">
+      <div class="paragraphrow w-row">
+        <div class="column-8 w-col w-col-6"><img src="images/createToken.svg" class="image-14"></div>
+        <div class="w-col w-col-6">
+          <h3 class="paragraphh3">Easily create custom currencies</h3>
+          <p class="paragraphp">With Omni it&#x27;s simple to create tokens to represent custom currencies or assets and to transact these via the Bitcoin blockchain. The power and simplicity offered by Omni has helped to make it the leading Bitcoin based token protocol.</p>
+        </div>
+      </div>
+      <div class="paragraphrow w-hidden-main w-hidden-medium w-hidden-small w-row">
+        <div class="column-3 w-clearfix w-col w-col-6"><img src="images/CrowdfundICO.svg" class="image-4"></div>
+        <div class="column-9 w-col w-col-6">
+          <h1 class="paragraphh3">Blockchain based crowdfunding</h1>
+          <p class="paragraphp">Decentralized crowdfunding is easy with Omni. Crowdsale participants can send bitcoins or tokens directly to an issuer address and the Omni Layer automatically delivers the crowdfunded tokens to the sender in return - all without needing to trust a third party.</p>
+        </div>
+      </div>
+      <div class="paragraphrow w-hidden-tiny w-row">
+        <div class="column-3 w-col w-col-6">
+          <h1 class="paragraphh3">Blockchain based crowdfunding</h1>
+          <p class="paragraphp">Decentralized crowdfunding is easy with Omni. Crowdsale participants can send bitcoins or tokens directly to an issuer address and the Omni Layer automatically delivers the crowdfunded tokens to the sender in return - all without needing to trust a third party.</p>
+        </div>
+        <div class="column-9 w-clearfix w-col w-col-6"><img src="images/CrowdfundICO.svg" class="image-4"></div>
+      </div>
+      <div class="paragraphrow w-row">
+        <div class="column-10 w-col w-col-6 w-col-medium-6 w-col-small-small-stack"><img src="images/SendTokens.svg"></div>
+        <div class="column-2 w-col w-col-6 w-col-medium-6 w-col-small-small-stack">
+          <h1 class="paragraphh3">Trade peer-to-peer</h1>
+          <p class="paragraphp">Participants can use the distributed exchanges provided by the Omni Layer to exchange tokens for other tokens or bitcoins directly on the blockchain without the need for a third party exchange.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-3">
+    <div class="container-5 w-container">
+      <div class="row-3 w-row">
+        <div class="column-4 w-col w-col-4">
+          <div class="iconrow w-row">
+            <div class="column-7 w-col w-col-3 w-col-small-3 w-col-tiny-3"><img src="images/SecureWallet.svg"></div>
+            <div class="w-col w-col-9 w-col-small-9 w-col-tiny-9">
+              <p class="icontext">Easy to use, secure web wallets available</p>
+            </div>
+          </div>
+        </div>
+        <div class="w-col w-col-4">
+          <div class="iconrow w-row">
+            <div class="column-11 w-col w-col-3 w-col-small-3 w-col-tiny-3"><img src="images/Exchange.svg"></div>
+            <div class="w-col w-col-9 w-col-small-9 w-col-tiny-9">
+              <p class="icontext">Integrated with top Bitcoin and Alt-coin Exchanges</p>
+            </div>
+          </div>
+        </div>
+        <div class="w-col w-col-4">
+          <div class="iconrow w-row">
+            <div class="column-12 w-col w-col-3 w-col-small-3 w-col-tiny-3"><img src="images/DaemonIcon.svg"></div>
+            <div class="w-col w-col-9 w-col-small-9 w-col-tiny-9">
+              <p class="icontext">Easy to integrate server daemon based on Bitcoin Core</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-row">
+        <div class="w-col w-col-4">
+          <div class="iconrow w-row">
+            <div class="column-13 w-col w-col-3 w-col-small-3 w-col-tiny-3"><img src="images/Wallet.svg"></div>
+            <div class="w-col w-col-9 w-col-small-9 w-col-tiny-9">
+              <p class="icontext">Fully-validating desktop wallet and client based on Bitcoin Qt</p>
+            </div>
+          </div>
+        </div>
+        <div class="w-col w-col-4">
+          <div class="iconrow w-row">
+            <div class="column-14 w-col w-col-3 w-col-small-3 w-col-tiny-3"><img src="images/Tether2.svg"></div>
+            <div class="w-col w-col-9 w-col-small-9 w-col-tiny-9">
+              <p class="icontext">Tether Dollars backed by Bank Trust, redeemable for SWIFT at tether.to and bitfinex.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="w-col w-col-4">
+          <div class="iconrow w-row">
+            <div class="column-15 w-col w-col-3 w-col-small-3 w-col-tiny-3"><img src="images/AssetValue.svg"></div>
+            <div class="w-col w-col-9 w-col-small-9 w-col-tiny-9">
+              <p class="icontext">Over 700M USD in asset market cap on the layer as of Feb &#x27;17</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="GetStarted" class="section-4">
+    <div class="container-video w-container">
+      <div>
+        <h1 class="heading-3">Get started</h1>
+        <p class="paragraph-2">Start with a web application or a software download</p>
+      </div>
+      <div class="row-8 w-row">
+        <div class="w-col w-col-4">
+          <div class="cardblock">
+            <div class="getstartedlogo"><img src="images/Omniwallet.png"></div>
+            <div class="cardtext">
+              <ul class="unordered-list">
+                <li class="list-item-card">Free, hosted Web Wallet</li>
+                <li class="list-item-card">You control your private key</li>
+                <li class="list-item-card">Send &amp; receive Bitcoin &amp; Omni assets</li>
+                <li class="list-item-card">Create assets, launch crowdsales, &amp; trade on the distributed exchange.</li>
+              </ul>
+            </div>
+            <div class="cardlink"><a href="https://www.omniwallet.org/" data-w-id="6f3f1938-8fb5-38b3-d566-272b1b6149ec" class="link">Sign up</a></div>
+          </div>
+        </div>
+        <div class="column-27 w-col w-col-4">
+          <div class="cardblock">
+            <div class="getstartedlogo"><img src="images/Explorer.png" class="image-11"></div>
+            <div class="cardtext">
+              <ul class="unordered-list">
+                <li class="list-item-card">Omni Blockchain Explorer</li>
+                <li class="list-item-card">View Omni transactions on the Bitcoin Network</li>
+                <li class="list-item-card">Lookup Omni asset (smart property) information</li>
+                <li class="list-item-card">View asset trading on the Distributed EXchange (DEX)</li>
+              </ul>
+            </div>
+            <div class="cardlink"><a href="https://omniexplorer.info/" data-w-id="e23c5924-c999-972d-7b46-98b21ec46706" class="link">Visit site</a></div>
+          </div>
+        </div>
+        <div class="w-col w-col-4">
+          <div class="cardblock">
+            <div class="getstartedlogo"><img src="images/OmniCore.png"></div>
+            <div class="cardtext">
+              <ul class="unordered-list">
+                <li class="list-item-card">Fully-validating Desktop Wallet</li>
+                <li class="list-item-card">A superset of Bitcoin-Qt</li>
+                <li class="list-item-card">Mac, Windows, and Linux</li>
+                <li class="list-item-card">Native, cross-platform user interface</li>
+                <li class="list-item-card">Peer-to-peer Distributed Exchange Trading</li>
+              </ul>
+            </div>
+            <div class="cardlink"><a href="download.html" data-w-id="3af8c0b2-9ee7-90fc-fae2-6ccf7fe21ddb" class="link">Download</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-video w-container">
+      <div>
+        <h1 class="heading-3">Video&#x27;s</h1>
+        <p class="paragraph-2">Start with a web application or a software download</p>
+      </div>
+      <div>
+        <div data-animation="slide" data-duration="500" data-infinite="1" class="slider-2 w-slider">
+          <div class="w-slider-mask">
+            <div class="slide w-slide">
+              <div class="w-embed w-iframe"><iframe width="560" height="315" src="https://www.youtube.com/embed/VIrZMIj4glc" frameborder="0" allowfullscreen=""></iframe></div>
+            </div>
+            <div class="w-slide">
+              <div class="w-embed w-iframe"><iframe width="560" height="315" src="https://www.youtube.com/embed/VIrZMIj4glc" frameborder="0" allowfullscreen=""></iframe></div>
+            </div>
+          </div>
+          <div class="w-slider-arrow-left">
+            <div class="w-icon-slider-left"></div>
+          </div>
+          <div class="w-slider-arrow-right">
+            <div class="w-icon-slider-right"></div>
+          </div>
+          <div class="w-round w-slider-nav"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="Github" class="section-5">
+    <div class="container-6 w-container">
+      <div class="projectstitle">
+        <h1 class="heading-5">Github projects</h1>
+        <div class="projectsgithub"><img src="images/github-iconOutline.svg" class="image-10"></div>
+      </div>
+      <div class="w-row">
+        <div class="w-col w-col-4">
+          <a href="https://github.com/OmniLayer/spec" data-w-id="8484a4a4-fbe6-038e-dfcc-429a47ef9c2c" class="cardblock projects w-inline-block">
+            <div class="projectslogo"><img src="images/OmniSpec.svg"></div>
+            <div class="cardtext">
+              <h3 class="heading-4">Omni Protocol Specification</h3>
+              <p class="projectsparagraph">The Specification for the Omni Layer Protocol.</p>
+            </div>
+          </a>
+        </div>
+        <div class="w-col w-col-4">
+          <a href="https://github.com/OmniLayer/omnicore" data-w-id="be43d3b9-bf2b-ae58-58cb-e0b7aeec99c1" class="cardblock projects w-inline-block">
+            <div class="projectslogo"><img src="images/OmniCoreProjects.png"></div>
+            <div class="cardtext">
+              <h3 class="heading-4">Omni Core</h3>
+              <p class="projectsparagraph">The Omni reference implementation. A C++ superset of Bitcoin Core.</p>
+            </div>
+          </a>
+        </div>
+        <div class="w-col w-col-4">
+          <a href="https://github.com/OmniLayer/omniwallet" data-w-id="76ad3250-9c94-8ddc-54e6-572a856cc322" class="cardblock projects w-inline-block">
+            <div class="projectslogo"><img src="images/OmniwalletProjects.png"></div>
+            <div class="cardtext">
+              <h3 class="heading-4">Omniwallet</h3>
+              <p class="projectsparagraph">Hosted wallet server (Python) with AngularJS front-end.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="w-row">
+        <div class="w-col w-col-4">
+          <a href="https://github.com/OmniLayer/OmniJ" data-w-id="1ce87f87-b360-0026-5fac-bba836ec5cf5" class="cardblock projects w-inline-block">
+            <div class="projectslogo"><img src="images/SMgithub-icon.svg"></div>
+            <div class="cardtext">
+              <h3 class="heading-4">OmniJ</h3>
+              <p class="projectsparagraph">Java/JVM Omni Client<br><br><span class="text-span-2">.</span></p>
+            </div>
+          </a>
+        </div>
+        <div class="w-col w-col-4">
+          <a href="https://github.com/OmniLayer/OmniTradeJS" data-w-id="091ee6af-72bb-eb78-c6a0-48d52578fb80" class="cardblock projects w-inline-block">
+            <div class="projectslogo"><img src="images/SMgithub-icon.svg"></div>
+            <div class="cardtext">
+              <h3 class="heading-4">OmniJS</h3>
+              <p class="projectsparagraph">Node.js-based JSON-RPC client for Omni Core.</p>
+            </div>
+          </a>
+        </div>
+        <div class="w-col w-col-4">
+          <a href="https://github.com/OmniLayer/" data-w-id="1b704ace-ae52-62c5-61c7-cd56a452a0d3" class="cardblock projects w-inline-block">
+            <div class="projectslogo"><img src="images/SMgithub-icon.svg"></div>
+            <div class="cardtext">
+              <h3 class="heading-4">See more…</h3>
+              <p class="projectsparagraph">Official Omni Foundation Github Projects</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="Community">
+    <div class="container-7 w-container">
+      <div class="testimonialslider">
+        <div data-animation="slide" data-duration="500" data-infinite="1" class="slider w-slider">
+          <div class="w-slider-mask">
+            <div class="w-slide">
+              <div class="div-block-5">
+                <div>
+                  <h3 class="heading-6">Testimonials</h3>
+                </div>
+                <p class="paragraph-4">With Omni and Tether, this was probably one of the nicest integrations I’ve ever done with a blockchain asset. Having the original bitcoin RPC on top of the additional commands was exactly how it should be.</p>
+                <div class="quoteicon"><img src="images/“.png" class="image-12"></div>
+                <div class="text-block">Matt</div>
+                <div class="testimonialwebsite">shapeshift.io</div>
+              </div>
+            </div>
+            <div class="w-slide"></div>
+          </div>
+          <div class="w-slider-arrow-left">
+            <div class="icon w-icon-slider-left"></div>
+          </div>
+          <div class="w-slider-arrow-right">
+            <div class="w-icon-slider-right"></div>
+          </div>
+          <div class="w-round w-slider-nav"></div>
+        </div>
+      </div>
+      <div class="teamtitle">
+        <h1 class="teamh1">Meet the team</h1>
+        <p class="paragraph-3">In tristique malesuada turpis non tincidunt. Aliquam gravida massa tellus</p>
+      </div>
+      <div class="row-4 w-row">
+        <div class="teamtoprow w-col w-col-3 w-col-small-3"><img src="images/Achamely.png">
+          <div class="teamusername">
+            <div class="text-block-3">achamely</div>
+          </div>
+        </div>
+        <div class="teamtoprow w-col w-col-3 w-col-small-3"><img src="images/Craig.png">
+          <div class="teamusername">
+            <div class="text-block-3">CraigSellars</div>
+          </div>
+        </div>
+        <div class="teamtoprow w-col w-col-3 w-col-small-3"><img src="images/dex.png">
+          <div class="teamusername">
+            <div class="text-block-3">dexX7</div>
+          </div>
+        </div>
+        <div class="teamtoprow w-col w-col-3 w-col-small-3"><img src="images/Judith.png">
+          <div class="teamusername">
+            <div class="text-block-3">JudithJakubovic</div>
+          </div>
+        </div>
+      </div>
+      <div class="row-5 w-row">
+        <div class="bottomleft teambottomrow w-col w-col-4 w-col-small-4"><img src="images/Marv.png">
+          <div class="bottomleft teamusername">
+            <div class="text-block-3">marvgmail</div>
+          </div>
+        </div>
+        <div class="bottommiddle teambottomrow w-col w-col-4 w-col-small-4"><img src="images/msgilligan.png">
+          <div class="bottommiddle teamusername">
+            <div class="text-block-3">msgilligan</div>
+          </div>
+        </div>
+        <div class="bottomright teambottomrow w-col w-col-4 w-col-small-4"><img src="images/Zathras.png">
+          <div class="bottomright teamusername">
+            <div class="text-block-3">zathras</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="Partners" class="section-6">
+    <div class="container-8 w-container">
+      <div class="row-7 w-row">
+        <div class="w-col w-col-4"></div>
+        <div class="w-col w-col-4">
+          <div class="row-6 w-row">
+            <div class="column-26 w-col w-col-3"><a href="https://www.facebook.com/groups/1501816626750032/" class="w-inline-block"><img src="images/Facebook.svg" height="28" data-w-id="edf13197-98ab-e662-b011-e72766fce311"></a></div>
+            <div class="column-25 w-col w-col-3"><a href="https://twitter.com/Omni_layer" class="w-inline-block"><img src="images/twitter.svg" height="28" data-w-id="6e2e7a4f-7d9f-f571-5552-002812b87198"></a></div>
+            <div class="column-24 w-col w-col-3"><a href="https://t.me/OmniLayer" class="w-inline-block"><img src="images/telegram.svg" class="image-15"></a></div>
+            <div class="column-23 w-col w-col-3"><a href="https://www.reddit.com/r/omni/" class="w-inline-block"><img src="images/Reddit.svg" height="28" data-w-id="4d2005df-378f-b09b-2cec-db8a78ea8ea2"></a></div>
+          </div>
+        </div>
+        <div class="w-col w-col-4"></div>
+      </div>
+      <div>
+        <div class="partnerstitle">Our partners</div>
+      </div>
+      <div class="partnerlogos w-row">
+        <div class="column-5 w-col w-col-6"><a href="https://www.ambisafe.co/" class="w-inline-block"><img src="images/Ambisafe.png"></a></div>
+        <div class="column-6 w-col w-col-6"><a href="https://holytransaction.com/" class="w-inline-block"><img src="images/holytransaction.png"></a></div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright-section">
+    <div class="container-9 w-container">
+      <div class="w-row">
+        <div class="w-col w-col-6">
+          <div class="copyrightleft">
+            <div class="copyright-text-left">© 2017 Omni Team.  All Rights Reserved.</div>
+          </div>
+        </div>
+        <div class="w-col w-col-6">
+          <div class="copyrightright">
+            <div class="text-block-2">Terms of use    |    Privacy Policy</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+  <script src="js/omni-ac67cd.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</body>
+</html>
