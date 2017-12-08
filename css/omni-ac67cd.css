@@ -938,7 +938,7 @@
 }
 
 .teamusername.bottomleft {
-  padding-right: 40px;
+  padding-right: 65px;
   text-align: right;
 }
 
@@ -1222,7 +1222,7 @@ html.w-mod-js *[data-ix="display-none"] {
     font-size: 14px;
   }
   .teamusername.bottomleft {
-    padding-right: 22px;
+    padding-right: 40px;
   }
   .teamusername.bottomright {
     padding-left: 33px;
@@ -1423,4 +1423,3 @@ html.w-mod-js *[data-ix="display-none"] {
     width: 0%;
   }
 }
-
