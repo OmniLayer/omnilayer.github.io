@@ -466,6 +466,11 @@
   text-decoration: none;
 }
 
+.normallink {
+  color: #1d4691;
+  text-decoration: none;
+}
+
 .heading-3 {
   color: #fff;
   text-align: center;
