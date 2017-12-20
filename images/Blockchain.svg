@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="231px" height="216px" viewBox="0 0 231 216" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Blockchain</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.195878623">
+        <g id="Artboard-Copy-3" transform="translate(-720.000000, -852.000000)">
+            <g id="Intro-Section" transform="translate(0.000000, 827.000000)">
+                <g id="Blockchain" transform="translate(839.612705, 137.867453) rotate(151.000000) translate(-839.612705, -137.867453) translate(722.112705, 45.367453)">
+                    <circle id="Oval-5" stroke="#586A99" stroke-width="1.5" cx="38.5" cy="54.5" r="22.5"></circle>
+                    <circle id="Oval-5" stroke="#586A99" stroke-width="1.5" cx="157" cy="16" r="16"></circle>
+                    <circle id="Oval-5" stroke="#586A99" stroke-width="1.5" cx="16" cy="146" r="16"></circle>
+                    <ellipse id="Oval-5" stroke="#586A99" stroke-width="1.5" cx="153" cy="82.5" rx="12" ry="12.5"></ellipse>
+                    <path d="M51.3916667,74.3965517 L97.6083333,142.603448" id="Line-24" stroke="#586A99" opacity="0.563915308" stroke-linecap="square"></path>
+                    <path d="M28.3940397,135.603704 L146.60596,29.3962963" id="Line-25" stroke="#586A99" opacity="0.563915308" stroke-linecap="square"></path>
+                    <path d="M58.3952381,66.3888889 L140.604762,79.6111111" id="Line-26" stroke="#586A99" opacity="0.563915308" stroke-linecap="square"></path>
+                    <path d="M123.387097,144.606061 L146.612903,93.3939394" id="Line-27" stroke="#586A99" opacity="0.563915308" stroke-linecap="square"></path>
+                    <path d="M142.603571,88.3955224 L32.3964286,140.604478" id="Line-28" stroke="#586A99" opacity="0.563915308" stroke-linecap="square"></path>
+                    <path d="M154,70.6 L154,31.4" id="Line-30" stroke="#586A99" opacity="0.563915308" stroke-linecap="square"></path>
+                    <path d="M20.40625,129.604478 L32.59375,77.3955224" id="Line-31" stroke="#586A99" opacity="0.563915308" stroke-linecap="square"></path>
+                    <circle id="Oval-5" stroke="#586A99" stroke-width="1.5" cx="107.5" cy="162.5" r="22.5"></circle>
+                    <circle id="Oval-6" stroke="#7987AD" stroke-width="1.5" cx="214.891331" cy="120.420191" r="20"></circle>
+                    <path d="M165.5,88.5 L197.242644,109.294842" id="Line-29" stroke="#B1B9CE" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

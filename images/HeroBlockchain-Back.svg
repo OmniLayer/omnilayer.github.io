@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="980px" height="431px" viewBox="0 0 980 431" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>HeroBG</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F38642" offset="0%"></stop>
+            <stop stop-color="#E9672F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-opacity="0.66479846" opacity="0.31493433">
+        <g id="Artboard-Copy-3" transform="translate(-381.000000, -220.000000)" stroke="#E8762B">
+            <g id="HeroBG" transform="translate(871.121453, 435.499194) rotate(180.000000) translate(-871.121453, -435.499194) translate(383.621453, 221.999194)">
+                <circle id="Oval-2" stroke-width="4" fill-opacity="0.650000036" fill="url(#linearGradient-1)" opacity="0.224977355" cx="227" cy="86" r="22"></circle>
+                <circle id="Oval-2" stroke-width="4" fill-opacity="0.650000036" fill="url(#linearGradient-1)" opacity="0.224977355" cx="687" cy="130" r="22"></circle>
+                <circle id="Oval-2" stroke-width="4" fill-opacity="0.650000036" fill="url(#linearGradient-1)" opacity="0.224977355" cx="360" cy="331" r="22"></circle>
+                <circle id="Oval-2" stroke-width="4" fill-opacity="0.650000036" fill="url(#linearGradient-1)" opacity="0.224977355" cx="479" cy="141" r="32"></circle>
+                <circle id="Oval-2" stroke-width="4" fill-opacity="0.650000036" fill="url(#linearGradient-1)" opacity="0.224977355" cx="159.5" cy="343.5" r="19.5"></circle>
+                <circle id="Oval-2" stroke-width="4" fill-opacity="0.650000036" fill="url(#linearGradient-1)" opacity="0.224977355" cx="936.5" cy="264.5" r="19.5"></circle>
+                <circle id="Oval-2" stroke-width="4" fill-opacity="0.650000036" fill="url(#linearGradient-1)" opacity="0.224977355" cx="955.5" cy="81.5" r="19.5"></circle>
+                <circle id="Oval-2" stroke-width="4" fill-opacity="0.650000036" fill="url(#linearGradient-1)" opacity="0.224977355" cx="32" cy="32" r="32"></circle>
+                <circle id="Oval-2" stroke-width="4" fill-opacity="0.650000036" fill="url(#linearGradient-1)" opacity="0.224977355" cx="773" cy="277" r="32"></circle>
+                <circle id="Oval-2" stroke-width="4" fill-opacity="0.650000036" fill="url(#linearGradient-1)" opacity="0.224977355" cx="504.5" cy="304.5" r="11.5"></circle>
+                <circle id="Oval-2" stroke-width="4" fill-opacity="0.650000036" fill="url(#linearGradient-1)" opacity="0.224977355" cx="816.5" cy="184.5" r="11.5"></circle>
+                <circle id="Oval-2" stroke-width="4" fill-opacity="0.650000036" fill="url(#linearGradient-1)" opacity="0.224977355" cx="338.5" cy="196.5" r="11.5"></circle>
+                <circle id="Oval-2" stroke-width="4" opacity="0.224977355" cx="654.5" cy="384.5" r="11.5"></circle>
+                <circle id="Oval-2" stroke-width="4" fill-opacity="0.650000036" fill="url(#linearGradient-1)" opacity="0.224977355" cx="91.5" cy="218.5" r="11.5"></circle>
+                <circle id="Oval-2" stroke-width="4" fill-opacity="0.650000036" fill="url(#linearGradient-1)" opacity="0.224977355" cx="566.5" cy="32.5" r="11.5"></circle>
+                <circle id="Oval-2" stroke-width="4" opacity="0.224977355" cx="474.5" cy="421.5" r="5.5"></circle>
+                <circle id="Oval-2" stroke-width="4" opacity="0.224977355" cx="799.5" cy="106.5" r="5.5"></circle>
+                <path d="M39.3287671,66.3310502 L86.6712329,210.66895" id="Line" stroke-width="3" fill-opacity="0.650000036" fill="#D8D8D8" opacity="0.224977355" stroke-linecap="square"></path>
+                <path d="M97.3323699,208.669811 L211.66763,104.330189" id="Line-2" stroke-width="3" fill-opacity="0.650000036" fill="#D8D8D8" opacity="0.224977355" stroke-linecap="square"></path>
+                <path d="M244.332061,101.330827 L330.667939,188.669173" id="Line-3" stroke-width="3" fill-opacity="0.650000036" fill="#D8D8D8" opacity="0.224977355" stroke-linecap="square"></path>
+                <path d="M175.331915,330.668421 L330.668085,205.331579" id="Line-4" stroke-width="3" fill-opacity="0.650000036" fill="#D8D8D8" opacity="0.224977355" stroke-linecap="square"></path>
+                <path d="M356.66,309.667742 L340.34,207.332258" id="Line-5" stroke-width="3" fill-opacity="0.650000036" fill="#D8D8D8" opacity="0.224977355" stroke-linecap="square"></path>
+                <path d="M348.330065,189.673077 L448.669935,156.326923" id="Line-6" stroke-width="3" fill-opacity="0.650000036" fill="#D8D8D8" opacity="0.224977355" stroke-linecap="square"></path>
+                <path d="M500.333333,114.668182 L557.666667,42.3318182" id="Line-7" stroke-width="3" fill-opacity="0.650000036" fill="#D8D8D8" opacity="0.224977355" stroke-linecap="square"></path>
+                <path d="M502.659091,293.667598 L488.340909,175.332402" id="Line-8" stroke-width="3" fill-opacity="0.650000036" fill="#D8D8D8" opacity="0.224977355" stroke-linecap="square"></path>
+                <path d="M501.675,315.331126 L476.325,414.668874" id="Line-9" stroke-width="3" fill-opacity="0.650000036" fill="#D8D8D8" opacity="0.224977355" stroke-linecap="square"></path>
+                <path d="M516.331606,309.330189 L643.668394,378.669811" id="Line-10" stroke-width="3" fill-opacity="0.650000036" fill="#D8D8D8" opacity="0.224977355" stroke-linecap="square"></path>
+                <path d="M655.326087,372.669162 L684.673913,152.330838" id="Line-11" stroke-width="3" fill-opacity="0.650000036" fill="#D8D8D8" opacity="0.224977355" stroke-linecap="square"></path>
+                <path d="M513.331878,139.666667 L664.668122,134.333333" id="Line-12" stroke-width="3" fill-opacity="0.650000036" fill="#D8D8D8" opacity="0.224977355" stroke-linecap="square"></path>
+                <path d="M707.329545,123.666667 L793.670455,108.333333" id="Line-13" stroke-width="3" fill-opacity="0.650000036" fill="#D8D8D8" opacity="0.224977355" stroke-linecap="square"></path>
+                <path d="M811.666667,195.329412 L790.333333,250.670588" id="Line-14" stroke-width="3" fill-opacity="0.650000036" fill="#D8D8D8" opacity="0.224977355" stroke-linecap="square"></path>
+                <path d="M799.33105,256.669421 L943.66895,97.3305785" id="Line-15" stroke-width="3" fill-opacity="0.650000036" fill="#D8D8D8" opacity="0.224977355" stroke-linecap="square"></path>
+                <path d="M918.669591,272.34375 L806.330409,282.65625" id="Line-16" stroke-width="3" fill-opacity="0.650000036" fill="#D8D8D8" opacity="0.224977355" stroke-linecap="square"></path>
+                <path d="M752.666667,251.66879 L699.333333,148.33121" id="Line-17" stroke-width="3" fill-opacity="0.650000036" fill="#D8D8D8" opacity="0.224977355" stroke-linecap="square"></path>
+                <path d="M471.667832,415.669725 L377.332168,344.330275" id="Line-18" stroke-width="3" fill-opacity="0.650000036" fill="#D8D8D8" opacity="0.224977355" stroke-linecap="square"></path>
+                <path d="M374.330935,313.669767 L465.669065,172.330233" id="Line-19" stroke-width="3" fill-opacity="0.650000036" fill="#D8D8D8" opacity="0.224977355" stroke-linecap="square"></path>
+                <path d="M204.669811,79.6666667 L65.3301887,44.3333333" id="Line-20" stroke-width="3" fill-opacity="0.650000036" fill="#D8D8D8" opacity="0.224977355" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
